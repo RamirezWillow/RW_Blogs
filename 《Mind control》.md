@@ -1,7 +1,7 @@
-[TOC]
-
 ---
+
 [心灵控制术](http://book.douban.com/subject/20492527/)
+
 ---
 
 ###Chapter1：心理结构及心理分析
