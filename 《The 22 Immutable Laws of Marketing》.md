@@ -1,4 +1,3 @@
-[toc]
 ###Law #1: The Law of Leadership 领先法则 
 
 - The Law of Leadership affirms the importance of being number one in a category. People usually k
