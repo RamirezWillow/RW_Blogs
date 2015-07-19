@@ -71,9 +71,9 @@ This concept seems unfair, but it's fundamental and we might as well get used to
 
 - The Law of the Ladder acknowledges that in most market categories, there is actually more than one available slot in the mind of the customer. 
 Three Tidbits about Ladders 
-＊The mind of the customer can only remember a few rungs. 
-＊The best strategy for you depends entirely on your ranking on the ladder
-＊There is a typical mapping of market share onto ladder position 
+(1)The mind of the customer can only remember a few rungs. 
+(2)The best strategy for you depends entirely on your ranking on the ladder
+(3)There is a typical mapping of market share onto ladder position 
 - 产品都非生来就是平等的，潜在顾客在作购买时会对各种品牌进行排序。对于每一个品类，顾客的心智都有一个有顺序的阶梯。 
 所以成为不了第一，做第二，第三也不意味着失败，第二，第三的品牌也有自己的市场战略。 
 
