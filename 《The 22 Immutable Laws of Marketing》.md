@@ -71,9 +71,9 @@ This concept seems unfair, but it's fundamental and we might as well get used to
 
 - The Law of the Ladder acknowledges that in most market categories, there is actually more than one available slot in the mind of the customer. 
 Three Tidbits about Ladders 
-1. The mind of the customer can only remember a few rungs. 
-2. The best strategy for you depends entirely on your ranking on the ladder 
-3. There is a typical mapping of market share onto ladder position 
+(1)The mind of the customer can only remember a few rungs. 
+(2)The best strategy for you depends entirely on your ranking on the ladder 
+(3)There is a typical mapping of market share onto ladder position 
 
 - 产品都非生来就是平等的，潜在顾客在作购买时会对各种品牌进行排序。对于每一个品类，顾客的心智都有一个有顺序的阶梯。 
 所以成为不了第一，做第二，第三也不意味着失败，第二，第三的品牌也有自己的市场战略。 
@@ -86,11 +86,11 @@ Three Tidbits about Ladders
 
 - The Law of Duality says that "in the long run, every market becomes a two-horse race." 
 Young markets have many rungs on the ladder. They are highly fragmented. Gradually, as the market matures, players disappear and the market settles on exactly two primary players. Examples of this phenomenon are everywhere: 
-　　• Coke and Pepsi 
-　　• Canon and Nikon 
-　　• Nike and Reebok 
-　　• GM and Ford 
-　　• McDonalds and Burger King 
+(1)Coke and Pepsi 
+(2)Canon and Nikon 
+(3)Nike and Reebok 
+(4)GM and Ford 
+(5)McDonalds and Burger King 
 
 - 从总体和长远的角度来看，你会发现市场往往会演化成两个大品牌竞争的局面---通常是一个值得信赖的老品牌，另一个则是后起之秀。 
 
@@ -173,9 +173,9 @@ The Law of Sacrifice is all about saying "no" to opportunities. This skill is in
 ###Law #15: The Law of Candor 坦诚定律 
 - The Law of Candor says that "when you admit a negative, the prospect will give you a positive". 
 As usual, the examples from the book are mainstream consumer products: 
-　　• Listerine did it when they acknowledged that their mouthwash tastes terrible. 
-　　• Avis did it when they acknowledged that they are #2. 
-　　• Each of these companies gained a lot when they applied the Law of Candor. People respect the courage and honesty it takes to admit that not everything is perfect. 
+(1)Listerine did it when they acknowledged that their mouthwash tastes terrible. 
+(2)Avis did it when they acknowledged that they are #2. 
+(3)Each of these companies gained a lot when they applied the Law of Candor. People respect the courage and honesty it takes to admit that not everything is perfect. 
 　　 
 - 是自己的产品深入人心的最有效方法是首先承认自己的不足，之后再将其转哈为优势。 
 坦诚可以可以解除顾客的戒备，相反，你的任何自夸，则最多也不过被人半信半疑。（太有道理了） 
@@ -187,8 +187,8 @@ As usual, the examples from the book are mainstream consumer products:
 ###Law #16: The Law of Singularity 唯一定律 
 
 - The Law of Singularity says that "in each situation only one move will produce substantial results". 
-• One bold stroke is much better than a bunch of small marketing efforts. 
-• Marketing is too important to be left to the marketing people. 
+(1)One bold stroke is much better than a bunch of small marketing efforts. 
+(2)Marketing is too important to be left to the marketing people. 
 
 - 在大多数情况下，你的竞争对手只有一个容易攻破的薄弱环节，正是这个环节，应该成为你全力攻击的焦点。 
 
