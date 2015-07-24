@@ -31,7 +31,7 @@ double s = 164132165.84631;
 输出：  
 s = 164,132,165.846  
 4. &和|、&&和||用法一样，只是前者不执行短路求值，对于运算符右操作数有所需要的辅助效果（side effect）——修改变量的值，则逻辑与和逻辑或非常有用【联系：好2】  
-5. Math类的几个方法:
+5. Math类的几个方法:  
 > |方法|描述|
 |---|---|
 |asb(x)|x的绝对值|
@@ -48,7 +48,6 @@ s = 164,132,165.846
 |tan(x)|x的三角正切值（x为弧度）|  
 |PI|π保留15位小数的近似值|
 |E|自然对数e保留15位小数的近似值|  
-
 
 6. 将main声明为静态的，使JVM不用创建该类的实例就能够使用main的方法
 7. 都用方法的方式：  
@@ -81,7 +80,7 @@ s = 164,132,165.846
 ②一个版本带两个float参数  
 ③一个版本带两个int参数  
 ④一个版本带两个long参数  
-13. 强化for语句【for(int number:array){sum+=number;}】：  
+13. 强化for语句`for(int number:array){sum+=number;}`：  
 a.简化了迭代遍历数组的代码，其只能获取不能修改。  
 b.只要不要求访问当前数组的索引值，就可以用强化for语句代替计数器控制for语句  
 14. ArrayList<T>类中的几个方法  
@@ -100,7 +99,7 @@ add讲一个元素添加到ArrayList的末尾clear删除ArrayList中的全部元
 18. Throwable类的继承层次（部分）  
 
 19. 带资源的try语句一般格式：  
-```java
+```
 try(ClassName theObject = new ClassName()){  
 	//use theObject here  
 }  
@@ -115,7 +114,7 @@ catch(Exception e){
 ①关联是有方向的，Executes是关联名称  
 ②靠近类WithDrawal的单词currentTransaction是一个角色名称（role name），它表明Withdrawal对象在与ATM的关系中所扮演的角色  
 21.重数类型
->|符号|含义|  
+> |符号|含义|  
 |---|:---:|  
 |0|无|  
 |1|1个|  
@@ -188,11 +187,11 @@ catch(Exception e){
 19. 索引必须是int值，或者是能够提升为int类型的值，即byte，short或char类型，但不能是long类型，否则会发生编译错误
 20. 数组声明中，在声明的方括号内指定元素个数（如int c[12]）是一个语法错误
 21. 在一个声明语句中声明多个数组变量，可能导致微妙的错误。考虑声明int[] a,b,c，如果a，b和c都声明为数组变量，那么这个声明是正确的——方括号直接跟在类型后面，表示声明中的所有标示符都是数组变量。但是，如果本意是只有a为数组变量，而b和c是int类型的变量，则这个声明是错误的——应该写成int a[],b,c，才能达到预期的目的  
-数组（是对象，是引用类型）声明三种方式：  
+数组（是对象，是引用类型）声明三种方式：
 ```
-①int c;c=new int[12];
-②int[] c=new int[12];
-③int c[]=new int[12];
+①int c;c=new int[12];  
+②int[] c=new int[12];  
+③int c[]=new int[12];  
 ```  
 
 22. 编写访问数组袁术的代码时，要确保数组下标总是大于或等于0，且小于数组的长度。这有助于防止程序出现ArryIndexOutOfBoundsException异常
