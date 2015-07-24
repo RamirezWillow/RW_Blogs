@@ -114,3 +114,7 @@ catch(Exception e){
 注：  
 ①关联是有方向的，Executes是关联名称  
 ②靠近类WithDrawal的单词currentTransaction是一个角色名称（role name），它表明Withdrawal对象在与ATM的关系中所扮演的角色  
+21. 重数类型
+
+|符号|含义|  
+|---|---| 
