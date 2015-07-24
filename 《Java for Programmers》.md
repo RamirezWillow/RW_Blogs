@@ -116,7 +116,7 @@ catch(Exception e){
 ②靠近类WithDrawal的单词currentTransaction是一个角色名称（role name），它表明Withdrawal对象在与ATM的关系中所扮演的角色  
 21.重数类型  
 >|符号|含义|  
-|---|---|  
+|---|:---:|  
 |0|无|  
 |1|1个|  
 |m|一个整数值|  
