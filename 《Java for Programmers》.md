@@ -100,12 +100,12 @@ add讲一个元素添加到ArrayList的末尾clear删除ArrayList中的全部元
 
 19. 带资源的try语句一般格式：  
 ```
-try(ClassName theObject = new ClassName()){  
-	//use theObject here  
-}  
-catch(Exception e){  
-	//catch exception that occur while suing the resourse  
-}  
+	try(ClassName theObject = new ClassName()){  
+		//use theObject here  
+	}  
+	catch(Exception e){  
+		//catch exception that occur while suing the resourse  
+	}  
 ```
 20.类间关联的类框图  
 
@@ -113,7 +113,7 @@ catch(Exception e){
 注：  
 ①关联是有方向的，Executes是关联名称  
 ②靠近类WithDrawal的单词currentTransaction是一个角色名称（role name），它表明Withdrawal对象在与ATM的关系中所扮演的角色  
-21.重数类型
+21.重数类型:
 > |符号|含义|  
 |---|:---:|  
 |0|无|  
@@ -123,7 +123,7 @@ catch(Exception e){
 |m,n|m个或n个|  
 |m..n|至少m个，但不超过n个|  
 |*|任何非负整数（0个或多个）|  
-|0..* |0个或多个（与*相同）|  
+|0..*|0个或多个（与*相同）|  
 |1..*|一个或多个|  
 
 22. 组合（Visio是复合）关系属性
@@ -136,7 +136,7 @@ catch(Exception e){
 ③用类框图中描述的关联声明其他对象的引用  
 ④用第三栏中的操作声明方法的外壳。如果没有指定操作的返回类型，则将方法的返回类型声明为void  
 24. ```scanner.close（）；```关闭流，是对Scanner的使用后进行关闭
-25. 正则表达式中的量词：   
+25. 正则表达式中的量词:   
 > |量词|匹配|
 |---|---|  
 |*|匹配前面的模式0次或多次|
@@ -145,7 +145,6 @@ catch(Exception e){
 |{n}|正好匹配n次|
 |{n，}|至少匹配n次|
 |{n,m}|匹配n-m次（包括二者）|  
-
 26. File类的一些方法  
 > |方法|描述|
 |---|---|  
@@ -193,7 +192,6 @@ catch(Exception e){
 ②int[] c=new int[12];  
 ③int c[]=new int[12];  
 ```  
-
 22. 编写访问数组袁术的代码时，要确保数组下标总是大于或等于0，且小于数组的长度。这有助于防止程序出现ArryIndexOutOfBoundsException异常
 23. 将省略号放在参数表的中间来表示变长实参表，这是一个语法错误。省略号只能放在参数表的末尾
 24. 将无序数组传入binarySearch方法是一个逻辑错误，返回的值时未定义的
