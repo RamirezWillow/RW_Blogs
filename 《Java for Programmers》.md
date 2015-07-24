@@ -13,7 +13,7 @@
 
 ###收集：
 1. System.out.printf显示多行  
-```
+```java
 System.out.printf("%s\n%s\n","A","B");  
 ```  
 输出：  
@@ -100,7 +100,7 @@ add讲一个元素添加到ArrayList的末尾clear删除ArrayList中的全部元
 18. Throwable类的继承层次（部分）  
 
 19. 带资源的try语句一般格式：  
-```
+```java
 try(ClassName theObject = new ClassName()){  
 	//use theObject here  
 }  
