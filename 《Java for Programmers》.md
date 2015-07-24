@@ -11,8 +11,6 @@
 ---
 
 
-
-
 ###收集：
 1. System.out.printf显示多行  
 System.out.printf("%s\n%s\n","A","B");  
@@ -30,17 +28,24 @@ double s = 164132165.84631;
             System. out.printf("s = %,.3f" ,s);  
 输出：  
 s = 164,132,165.846  
-4. &和|和&&，||用法一样，只是前者不执行短路求值，对于运算符右操作数有所需要的辅助效果（side effect）——修改变量的值，则逻辑与和逻辑或非常有用【联系：好2】  
+4. &和|、&&和||用法一样，只是前者不执行短路求值，对于运算符右操作数有所需要的辅助效果（side effect）——修改变量的值，则逻辑与和逻辑或非常有用【联系：好2】  
 5. Math类的几个方法  
-**方法描述：**   
-asb(x)x的绝对值ceil(x)将x四舍五入为不小于x的最小整数cos(x)x的三角余弦值（x为弧度）exp(x)指数方法e^xfloor(x)  
-将x四舍五入为不大于x的最大整数  
-log(x)x的自然对数（自然对数的底数为e）max(x,y)x与y的较大值min(x,y)x与y的较小值pow(x,y)x的y次幂sin(x)  
-x的三角正弦值（x为弧度）  
-spot(x)x的平方根  
-tan(x)  
-x的三角正切值（x为弧度）  
-PIπ保留15位小数的近似值E自然对数e保留15位小数的近似值  
+| 方法 | 描述 |
+| ----- | ------ |  
+|asb(x)|x的绝对值|
+|ceil(x)|将x四舍五入为不小于x的最小整数|
+|cos(x)|x的三角余弦值（x为弧度）|
+|exp(x)|指数方法e^x|
+|floor(x)|将x四舍五入为不大于x的最大整数|
+|log(x)|x的自然对数（自然对数的底数为e）|
+|max(x,y)|x与y的较大值|
+|min(x,y)|x与y的较小值|
+|pow(x,y)|x的y次幂|
+|sin(x)|x的三角正弦值（x为弧度）|
+|spot(x)|x的平方根|
+|tan(x)|x的三角正切值（x为弧度）|  
+|PI|π保留15位小数的近似值|
+|E|自然对数e保留15位小数的近似值|  
 6. 将main声明为静态的，使JVM不用创建该类的实例就能够使用main的方法
 7. 都用方法的方式：  
 ①使用方法名的本身，调用同一个类中的一个方法。  
@@ -48,9 +53,16 @@ PIπ保留15位小数的近似值E自然对数e保留15位小数的近似值
 ③使用类名称和一个点号来调用类的静态方法  
 8. 静态方法只能直接调用一个类型的其他静态方法（即使用方法名称本身），并且只能直接操作同一个类型的静态变量。为了访问类的非静态成员，静态方法必须使用该类的对象的引用
 9. 实参提升（argument promotion）——将实参值（在可能的情况下）转换成方法在其对应参数中希望接收的类型，其适用于包含两个或多个基本类型值的表达式，也可以适用于作为作为实参传递的方法的基本类型值
-类型有效的提升double无   floatdoublelongfloat/douleintlong/float/doublecharint/long/float/doubleshort  
-int/long/float/double  
-byteshort/int/long/float/doubleboolean  
+| 类型 | 有效的提升 |
+| ----- | ----------- |
+|double|无|  
+|float|double|
+|long|float/doule|
+|int|long/float/double|
+|char|int/long/float/double|
+|short|int/long/float/double| 
+|byte|short/int/long/float/double|
+|boolean|无|  
 10. Java不允许将int值与枚举常量作比较
 11. 基本的作用于规则如下：  
 ①参数声明的作用域是声明所在的方法体  
@@ -80,6 +92,7 @@ add讲一个元素添加到ArrayList的末尾clear删除ArrayList中的全部元
 ④将超类引用赋予子类变量，是一种编译错误。为了避免这一错误，必须显式地将超类引用强制转换成子类类型。执行时，如果引用所指的对象不是子类对象，则会发生异常，应当使用instanceof运算符来保证只对子类对象进行这种强制转换  
 17. 异常处理：专门用于应付同步错误，这种错误是在语句执行时发生的。这类错误的常见例子包括：数组下标越界，算数溢出（即值位于科表示的范围之后），除零，无效的方法参数，线程中断以及不成功的内存分配（由于内存不够）。异常处理并不是用于处理与异步事件（例如磁盘I/O完成，网络信息到达，鼠标单击和键击）相关的错误，这类事件是与程序的控制流平行的或者独立的  
 18. Throwable类的继承层次（部分）  
+
 19. 带资源的try语句一般格式：  
 try(ClassName theObject = new ClassName()){  
 	//use theObject here  
@@ -88,6 +101,7 @@ catch(Exception e){
 	//catch exception that occur while suing the resourse  
 }   
 20.类间关联的类框图  
+
 解释：ATM类的一个对象执行Withdrawal类的0个或1个对象  
 注：  
 ①关联是有方向的，Executes是关联名称  
