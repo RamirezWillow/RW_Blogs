@@ -13,7 +13,9 @@
 
 ###收集：
 1. System.out.printf显示多行  
+```
 System.out.printf("%s\n%s\n","A","B");  
+```  
 输出：  
 A  
 B  
@@ -98,12 +100,14 @@ add讲一个元素添加到ArrayList的末尾clear删除ArrayList中的全部元
 18. Throwable类的继承层次（部分）  
 
 19. 带资源的try语句一般格式：  
+```
 try(ClassName theObject = new ClassName()){  
 	//use theObject here  
 }  
 catch(Exception e){  
 	//catch exception that occur while suing the resourse  
-}   
+}  
+```
 20.类间关联的类框图  
 
 解释：ATM类的一个对象执行Withdrawal类的0个或1个对象  
