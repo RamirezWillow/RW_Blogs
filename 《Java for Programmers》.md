@@ -26,10 +26,13 @@ B
 	int a,    //first number to add  
 	b,    //second number to add  
 	sum;    //sum of a and b  
+```
 - 美式计数法（分组分隔符）  
 例：  
-double s = 164132165.84631;  
-            System. out.printf("s = %,.3f" ,s);  
+```java
+	double s = 164132165.84631;  
+	System. out.printf("s = %,.3f" ,s);  
+```
 输出：  
 s = 164,132,165.846  
 - &和|、&&和||用法一样，只是前者不执行短路求值，对于运算符右操作数有所需要的辅助效果（side effect）——修改变量的值，则逻辑与和逻辑或非常有用【联系：好2】  
