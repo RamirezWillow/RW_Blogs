@@ -22,9 +22,10 @@ B
 
 - 在一条声明语句中声明同一种类型的多个变量，变量名称之间用逗号分开（即变量名的逗号分隔列表），  
 例：  
-int a,    //first number to add  
-     b,    //second number to add  
-     sum;    //sum of a and b  
+```java
+	int a,    //first number to add  
+	b,    //second number to add  
+	sum;    //sum of a and b  
 - 美式计数法（分组分隔符）  
 例：  
 double s = 164132165.84631;  
