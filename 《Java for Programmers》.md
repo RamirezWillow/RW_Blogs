@@ -12,14 +12,14 @@
 
 
 ###收集：
-1.System.out.printf显示多行  
+- System.out.printf显示多行  
 ```java
 System.out.printf("%s\n%s\n","A","B");  
 ```  
 输出：  
 A  
 B  
-2. 在一条声明语句中声明同一种类型的多个变量，变量名称之间用逗号分开（即变量名的逗号分隔列表），  
+- 在一条声明语句中声明同一种类型的多个变量，变量名称之间用逗号分开（即变量名的逗号分隔列表），  
 例：  
 int a,    //first number to add  
      b,    //second number to add  
