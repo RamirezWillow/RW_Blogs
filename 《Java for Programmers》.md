@@ -12,7 +12,7 @@
 
 
 ###收集：
-1. System.out.printf显示多行  
+1.System.out.printf显示多行  
 ```java
 System.out.printf("%s\n%s\n","A","B");  
 ```  
